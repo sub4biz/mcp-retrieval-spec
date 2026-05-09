@@ -132,9 +132,35 @@ mcp-retrieval-spec/
 | SPEC.md | Apache 2.0 — implement freely |
 | SDK clients | Apache 2.0 — use freely |
 | Reference server | Requires jMunch license for commercial use |
+| Conformance suite | Apache 2.0 |
 | Benchmark suite | Apache 2.0 |
 
 This is the [Stripe model](https://stripe.com/docs/api): the API spec is open and well-documented; the best implementation is commercial.
+
+---
+
+## Conformance
+
+→ [jmri/conformance/](./jmri/conformance/README.md)
+
+Any MCP retrieval server claiming jMRI compliance can run the bundled conformance suite to validate against the spec. Two tiers (`Core` MUST / `Full` SHOULD), 14 named cases pinned to specific `SPEC.md` invariants. Markdown or JSON output for CI / dashboards.
+
+```bash
+pip install jmri-sdk
+python -m jmri.conformance --repo owner/repo --server-cmd "your-jmri-server"
+```
+
+Verdict: `jMRI-Full compliant` / `jMRI-Core compliant` / `NOT compliant — N MUST failure(s)`. Exit code 0 on Core-compliant runs (with or without Full gaps), 1 otherwise.
+
+**Self-reporting only.** Maintainers run the suite against their own servers and publish the report. We don't run conformance against competitors — that's adversarial and not the shape we want a standards-bearer to take. Third parties claiming compliance: run, save, link.
+
+---
+
+## Citation
+
+[![CITATION.cff](https://img.shields.io/badge/CITATION-cff-blue)](./CITATION.cff)
+
+If you reference jMRI in research or as the substrate for a benchmark, please cite the spec — not a vendor methodology paper. `CITATION.cff` is in the repo root; Zenodo deposit pending (DOI to be added once minted).
 
 ---
 

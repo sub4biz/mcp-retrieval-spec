@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jmri-sdk"
-version = "1.0.0"
-description = "jMRI — token-efficient context retrieval for MCP agents. Python SDK client and reference server."
+version = "1.1.0"
+description = "jMRI — token-efficient context retrieval for MCP agents. Python SDK client, reference server, and conformance suite."
 readme = "README.md"
 license = { text = "Apache-2.0" }
 requires-python = ">=3.10"
@@ -31,6 +31,7 @@ dev = ["pytest", "pytest-asyncio"]
 
 [project.scripts]
 jmri-server = "jmri.reference.server:main"
+jmri-conformance = "jmri.conformance.__main__:main"
 
 [project.urls]
 Homepage = "https://j.gravelle.us/jCodeMunch/"

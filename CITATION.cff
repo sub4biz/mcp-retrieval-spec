@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: "jMRI: jMunch Retrieval Interface Specification"
+message: "If you reference jMRI in research or as the substrate for a benchmark, please cite the spec."
+abstract: >-
+  jMRI (jMunch Retrieval Interface) is an open interface specification for
+  retrieval MCP servers. It defines four operations (discover, search,
+  retrieve, metadata), a response envelope, stable identifier formats,
+  and two compliance levels (Core and Full). The spec is the substrate
+  jcodemunch-mcp / jdocmunch-mcp / jdatamunch-mcp implement, and the
+  reference any third-party MCP retrieval tool can be measured against
+  via the bundled conformance suite.
+type: software
+authors:
+  - family-names: Gravelle
+    given-names: J.
+    email: j@gravelle.us
+url: "https://github.com/jgravelle/mcp-retrieval-spec"
+repository-code: "https://github.com/jgravelle/mcp-retrieval-spec"
+license: Apache-2.0
+keywords:
+  - "model context protocol"
+  - "mcp"
+  - "agents"
+  - "retrieval"
+  - "context engineering"
+  - "tokens"
+  - "conformance"
+  - "specification"
+version: "1.1.0"
+date-released: "2026-05-09"
+identifiers:
+  - type: url
+    value: "https://github.com/jgravelle/mcp-retrieval-spec/blob/main/SPEC.md"
+    description: "Canonical SPEC.md"
+references:
+  - type: software
+    title: "jcodemunch-mcp — jMRI-Full reference implementation (code)"
+    url: "https://github.com/jgravelle/jcodemunch-mcp"
+    license: "BUSL-1.1 / dual"
+  - type: software
+    title: "jdocmunch-mcp — jMRI-Full reference implementation (docs)"
+    url: "https://github.com/jgravelle/jdocmunch-mcp"
+    license: "BUSL-1.1 / dual"
+  - type: software
+    title: "jdatamunch-mcp — jMRI-Full reference implementation (tabular)"
+    url: "https://github.com/jgravelle/jdatamunch-mcp"
+    license: "BUSL-1.1 / dual"
