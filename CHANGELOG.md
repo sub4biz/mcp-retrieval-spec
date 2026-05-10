@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.1] — 2026-05-09 — Zenodo deposit trigger (no spec changes)
+
+Re-release with no spec or SDK changes. Sole purpose: trigger
+Zenodo's GitHub-release webhook now that the per-repo toggle is
+enabled at https://zenodo.org/account/settings/github/. The DOI
+minted by this release becomes the canonical citation for the
+spec at jMRI v1.1.
+
+Spec text remains at v1.0.0; the SDK surface is unchanged from
+v1.1.0. CITATION.cff version bumped only for cff/release parity.
+
 ## [1.1.0] — 2026-05-09 — Conformance suite + CITATION.cff (Zenodo deposit)
 
 Spec text unchanged at v1.0.0; the bump reflects the new SDK surface
