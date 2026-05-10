@@ -29,6 +29,9 @@ keywords:
 version: "1.1.1"
 date-released: "2026-05-09"
 identifiers:
+  - type: doi
+    value: 10.5281/zenodo.20102349
+    description: "Zenodo deposit (v1.1.1, 2026-05-10) — canonical citation for jMRI v1.1"
   - type: url
     value: "https://github.com/jgravelle/mcp-retrieval-spec/blob/main/SPEC.md"
     description: "Canonical SPEC.md"

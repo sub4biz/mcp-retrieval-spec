@@ -158,9 +158,14 @@ Verdict: `jMRI-Full compliant` / `jMRI-Core compliant` / `NOT compliant — N MU
 
 ## Citation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20102349.svg)](https://doi.org/10.5281/zenodo.20102349)
 [![CITATION.cff](https://img.shields.io/badge/CITATION-cff-blue)](./CITATION.cff)
 
-If you reference jMRI in research or as the substrate for a benchmark, please cite the spec — not a vendor methodology paper. `CITATION.cff` is in the repo root; Zenodo deposit pending (DOI to be added once minted).
+If you reference jMRI in research or as the substrate for a benchmark, please cite the spec — not a vendor methodology paper. The canonical citation is the Zenodo deposit:
+
+> Gravelle, J. (2026). *jMRI: jMunch Retrieval Interface Specification* (v1.1.1) [Software]. Zenodo. https://doi.org/10.5281/zenodo.20102349
+
+`CITATION.cff` in the repo root has the structured form for citation managers.
 
 ---
 
